@@ -21,7 +21,7 @@ const Hero = () => {
             <div className=" text-2xl mt-5 sm:text-3xl lg:text-[2.5rem] w-full text-start mb-5  ">
               Hey, I'am Srishti Suratkal
             </div>
-            <div className="-mt-3 lg:mt-10 lg:text-3xl bg-gradient-to-l bg-clip-text text-transparent from-blue-900 to-red-700">
+            <div className="-mt-3 lg:mt-10 lg:text-3xl text-black">
               <Typewriter
                 options={{
                   strings: [
