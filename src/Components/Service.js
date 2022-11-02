@@ -184,7 +184,7 @@ const Service = () => {
               </a>
             </div>
             {/* 3rd Service */}
-            <div className="block mt-10 sm:-ml-56 sm:-mt-36 md:-ml-60 lg:-mt-32 lg:-ml-24 border border-green-500 p-6 w-60 h-60 max-w-sm bg-opacity-0  bg-white rounded-xl rounded-tl-large  shadow-md hover:bg-green-900  hover:border-0">
+            <div className="block mt-10 sm:-ml-56 sm:-mt-32 md:-ml-60 lg:-mt-32 lg:-ml-24 border border-green-500 p-6 w-60 h-60 max-w-sm bg-opacity-0  bg-white rounded-xl rounded-tl-large  shadow-md hover:bg-green-900  hover:border-0">
               <a
                 href="#"
                 className="block  -ml-6 -mt-6 border border-t-0 border-l-0  border-blue-700  p-6 w-60 h-60 max-w-sm bg-white rounded-xl rounded-tl-large  shadow-xl hover:bg-gray-100 dark:bg-gray-900 hover:border-0 dark:hover:bg-pink-900   "

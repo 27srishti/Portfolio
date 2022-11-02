@@ -5,7 +5,8 @@ import three from "../Image/three.png";
 import four from "../Image/four.png";
 const Portfolio = () => {
   return (
-    <div className=" bg-black bg-opacity-40">
+    <div className="  bg-black bg-opacity-40">
+      
       <div
         id="Portfolio"
         href="#Portfolio"
