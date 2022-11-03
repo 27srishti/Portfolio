@@ -92,7 +92,7 @@ const Service = () => {
             <div className=" block  -mt-20 lg:-mt-60 border border-green-500 p-6 w-60 h-60 max-w-sm bg-opacity-0   rounded-xl rounded-tl-large  shadow-md   hover:border-0">
               <a
                 href="#"
-                className="block -mt-6 -ml-6 border border-t-0 border-l-0  border-blue-700  p-6 w-60 h-60 max-w-sm bg-white rounded-xl rounded-tl-large   shadow-xl hover:bg-gray-100  bg-gray-900 hover:border-0 hover:bg-pink-900"
+                className="block -mt-6 -ml-6 border border-t-0 border-l-0  border-blue-700  p-6 w-60 h-60 max-w-sm  rounded-xl rounded-tl-large   shadow-xl   bg-gray-900 hover:border-0 hover:bg-pink-900"
               >
                 {" "}
                 <div className="  text-2xl  mt-3 ml-5 mb-5 w-100 text-white ">
