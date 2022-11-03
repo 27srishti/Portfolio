@@ -18,7 +18,7 @@ const Service = () => {
               Hello! 
               <br />
               <div className="mt-2">
-              I`m a UX/UI Designer, FrontEnd Developer, Logo Maker that would help
+              I`m a UX/UI Designer, FrontEnd Developer, Logo Maker would help
               clients achieve their business goals through intuitive and
               cutting-edge designs with clean and eye-catching expandable code.I
               do my best to meet clients’ goals and deadlines through proactive
