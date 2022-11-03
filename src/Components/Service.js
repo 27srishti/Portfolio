@@ -32,50 +32,50 @@ const Service = () => {
           <div className="mt-20  grid-flow-col lg:ml-7 lg:w-98 lg:ml-14 invisible  sm:visible sm:ml-12  md:visible lg:visible xl:visible 2xl:visible">
             <button
               type="button"
-              class="text-white bg-gradient-to-br from-purple-900 to-yellow-200 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2"
+              class="text-white bg-gradient-to-br from-purple-900 to-yellow-200 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-blue-300 focus:ring-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2"
             >
               Wordpress
             </button>
             <button
               type="button"
-              class="text-white bg-gradient-to-r from-pink-200 to-blue-900 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2"
+              class="text-white bg-gradient-to-r from-pink-200 to-blue-900 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-cyan-300 focus:ring-cyan-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2"
             >
               Firebase
             </button>
             <button
               type="button"
-              class="text-white bg-gradient-to-br from-green-400 to-blue-600 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-green-200 dark:focus:ring-green-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2"
+              class="text-white bg-gradient-to-br from-green-400 to-blue-600 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-green-200 focus:ring-green-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2"
             >
               Figma
             </button>
             <button
               type="button"
-              class="text-white bg-gradient-to-r from-purple-500 to-pink-500 hover:bg-gradient-to-l focus:ring-4 focus:outline-none focus:ring-purple-200 dark:focus:ring-purple-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2"
+              class="text-white bg-gradient-to-r from-purple-500 to-pink-500 hover:bg-gradient-to-l focus:ring-4 focus:outline-none focus:ring-purple-200 focus:ring-purple-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2"
             >
               Adobe Illustrator
             </button>
 
             <button
               type="button"
-              class=" text-white bg-gradient-to-br from-pink-500 to-orange-400 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-pink-200 dark:focus:ring-pink-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2"
+              class=" text-white bg-gradient-to-br from-pink-500 to-orange-400 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-pink-200 focus:ring-pink-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2"
             >
               Reactjs
             </button>
             <button
               type="button"
-              class="text-gray-900 bg-gradient-to-r from-green-500 to-lime-200 hover:bg-gradient-to-l hover:from-teal-200 hover:to-lime-200 focus:ring-4 focus:outline-none focus:ring-lime-200 dark:focus:ring-teal-700 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2"
+              class="text-gray-900 bg-gradient-to-r from-green-500 to-lime-200 hover:bg-gradient-to-l hover:from-teal-200 hover:to-lime-200 focus:ring-4 focus:outline-none focus:ring-lime-200 focus:ring-teal-700 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2"
             >
               Webflow
             </button>
             <button
               type="button"
-              class="text-gray-900   bg-gradient-to-r from-red-200 via-red-300 to-yellow-200 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-red-100 dark:focus:ring-red-400 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2"
+              class="text-gray-900   bg-gradient-to-r from-red-200 via-red-300 to-yellow-200 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-red-100 focus:ring-red-400 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2"
             >
               Canva
             </button>
             <button
               type="button"
-              class="w-10 h-10 ml-2 mt-3 text-xl text-gray-900 bg-white hover:bg-gray-200 focus:ring-4 focus:outline-none focus:ring-red-100 dark:focus:ring-red-400 font-medium rounded-full text-sm  text-center "
+              class="w-10 h-10 ml-2 mt-3 text-xl text-gray-900 bg-white hover:bg-gray-200 focus:ring-4 focus:outline-none focus:ring-red-100 focus:ring-red-400 font-medium rounded-full text-sm  text-center "
             >
               +
             </button>
@@ -89,10 +89,10 @@ const Service = () => {
           transition={{ duration: 2 }}
         >
             {/* 1st Service */}
-            <div className=" block  -mt-20 lg:-mt-60 border border-green-500 p-6 w-60 h-60 max-w-sm bg-opacity-0  bg-white rounded-xl rounded-tl-large  shadow-md hover:bg-green-900  hover:border-0">
+            <div className=" block  -mt-20 lg:-mt-60 border border-green-500 p-6 w-60 h-60 max-w-sm bg-opacity-0   rounded-xl rounded-tl-large  shadow-md   hover:border-0">
               <a
                 href="#"
-                className="block -mt-6 -ml-6 border border-t-0 border-l-0  border-blue-700  p-6 w-60 h-60 max-w-sm bg-white rounded-xl rounded-tl-large   shadow-xl hover:bg-gray-100 dark:bg-gray-900 hover:border-0 dark:hover:bg-pink-900 "
+                className="block -mt-6 -ml-6 border border-t-0 border-l-0  border-blue-700  p-6 w-60 h-60 max-w-sm bg-white rounded-xl rounded-tl-large   shadow-xl hover:bg-gray-100  bg-gray-900 hover:border-0 hover:bg-pink-900"
               >
                 {" "}
                 <div className="  text-2xl  mt-3 ml-5 mb-5 w-100 text-white ">
@@ -140,7 +140,7 @@ const Service = () => {
             <div className="block sm:ml-10 mt-10 lg:ml-48 lg:mr-14 lg:mt-8 border border-green-500 p-6 w-60 h-60 max-w-sm bg-opacity-0  bg-white rounded-xl rounded-tl-large  shadow-md hover:bg-green-900  hover:border-0">
               <a
                 href="#"
-                className="block  -mt-6 -ml-6 border border-t-0 border-l-0  border-blue-700  p-6 w-60 h-60 max-w-sm bg-white rounded-xl rounded-tl-large   shadow-xl hover:bg-gray-100 dark:bg-gray-900 hover:border-0 dark:hover:bg-pink-900 "
+                className="block  -mt-6 -ml-6 border border-t-0 border-l-0  border-blue-700  p-6 w-60 h-60 max-w-sm bg-white rounded-xl rounded-tl-large   shadow-xl hover:bg-gray-100  bg-gray-900 hover:border-0 hover:bg-pink-900 "
               >
                 <div className="  text-2xl text-center ml-7 mb-5  text-white">
                   Front-End Web Development
@@ -187,7 +187,7 @@ const Service = () => {
             <div className="block mt-10 sm:-ml-56 sm:-mt-32 md:-ml-60 lg:-mt-32 lg:-ml-24 border border-green-500 p-6 w-60 h-60 max-w-sm bg-opacity-0  bg-white rounded-xl rounded-tl-large  shadow-md hover:bg-green-900  hover:border-0">
               <a
                 href="#"
-                className="block  -ml-6 -mt-6 border border-t-0 border-l-0  border-blue-700  p-6 w-60 h-60 max-w-sm bg-white rounded-xl rounded-tl-large  shadow-xl hover:bg-gray-100 dark:bg-gray-900 hover:border-0 dark:hover:bg-pink-900   "
+                className="block  -ml-6 -mt-6 border border-t-0 border-l-0  border-blue-700  p-6 w-60 h-60 max-w-sm bg-white rounded-xl rounded-tl-large  shadow-xl hover:bg-gray-100 bg-gray-900 hover:border-0  hover:bg-pink-900   "
               >
                 <div className=" text-2xl text-center  -ml-1 mb-5 w-56 text-white">
                   Logo and Cover Designing

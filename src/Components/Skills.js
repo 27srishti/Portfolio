@@ -204,7 +204,7 @@ const Skills = () => {
       <div
         id="Skills"
         href="#Skills"
-        className="block   mx-3 -mt-[6rem] sm:-mt-[11rem] md:-mt-[12.5rem] lg:-mt-[20rem] xl:-mt-40 md:w-[40rem] lg:-mt-[14rem] xl:-mt-[16rem]  2xl:-mt-[18rem] lg:w-99 lg:h-98   relative  border border-pink-900   p-6  rounded-3xl  shadow-xl  bg-black bg-opacity-20  "
+        className="block   mx-3 -mt-[6rem] sm:-mt-[11rem] md:-mt-[12.5rem] lg:-mt-[20rem] xl:-mt-40 md:w-[40rem] lg:-mt-[14rem] xl:-mt-[16rem]  2xl:-mt-[18rem] lg:w-99 lg:h-98   relative  border border-gray-800   p-6  rounded-3xl  shadow-xl  bg-black bg-opacity-20  "
       ><a >
         <center>
             <div className=" <  text-4xl xl:text-5xl mb-5 bg-gradient-to-l bg-clip-text text-transparent from-blue-900 to-black font-bold text-white ">

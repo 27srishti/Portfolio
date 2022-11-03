@@ -14,22 +14,22 @@ const Footer = () => {
           <div className="container mx-auto px-4">
             <div className="flex flex-wrap text-left lg:text-left">
               <div className="w-full lg:w-6/12 px-4">
-                <h4 className="text-3xl fonat-semibold text-blueGray-700">
+                <h4 className="text-3xl fonat-semibold text-gray-200">
                   Let's keep in touch!
                 </h4>
-                <h5 className="text-lg  text-blueGray-600">
+                <h5 className="text-lg  text-gray-400">
                   Find us on any of these platforms!
                 </h5>
                 <div className="mt-6 lg:mb-0 ">
                   <a
-                    className="  bg-gray-300 mr-2 hover:bg-gray-400  text-blueGray-800 shadow-lg font-normal h-9 w-9  rounded-lg outline-none focus:outline-none "
+                    className="  bg-gray-300 mr-2 hover:bg-gray-400   shadow-lg font-normal h-9 w-9  rounded-lg outline-none focus:outline-none "
                     type="button"
                     href="https://www.upwork.com/freelancers/~01033ecc64c3594e80"
                   >
                     <img   className="pl-1.5  pt-1.5" src="https://img.icons8.com/fluency-systems-filled/24/000000/behance.png"/>
                   </a>
                   <a
-                    className="  bg-gray-300 mr-2 hover:bg-gray-400 text-blueGray-800 shadow-lg font-normal h-9 w-9  rounded-lg  outline-none focus:outline-none "
+                    className="  bg-gray-300 mr-2 hover:bg-gray-400  shadow-lg font-normal h-9 w-9  rounded-lg  outline-none focus:outline-none "
                     type="button"
                     href="https://www.upwork.com/freelancers/~01033ecc64c3594e80"
                   >
@@ -39,7 +39,7 @@ const Footer = () => {
                     />
                   </a>
                   <a
-                    className="  bg-gray-300 mr-2 hover:bg-gray-400  text-blueGray-800 shadow-lg font-normal h-9 w-9  rounded-lg outline-none focus:outline-none "
+                    className="  bg-gray-300 mr-2 hover:bg-gray-400   shadow-lg font-normal h-9 w-9  rounded-lg outline-none focus:outline-none "
                     type="button"
                     href="https://github.com/27srishti"
                   >
@@ -49,7 +49,7 @@ const Footer = () => {
                     />
                   </a>
                   <a
-                    className="  pt-1.5 bg-gray-300 hover:bg-gray-400  mr-2 text-blueGray-800 shadow-lg font-normal h-9 w-9  rounded-lg outline-none focus:outline-none "
+                    className="  pt-1.5 bg-gray-300 hover:bg-gray-400  mr-2  shadow-lg font-normal h-9 w-9  rounded-lg outline-none focus:outline-none "
                     type="button"
                     href="https://www.upwork.com/freelancers/~01033ecc64c3594e80"
                   >
@@ -116,12 +116,12 @@ const Footer = () => {
             <hr className="my-6 border-blueGray-300 " />
             <div className="flex flex-wrap items-center md:justify-between justify-center">
               <div className="w-full md:w-4/12 px-4 mx-auto text-center">
-                <div className="text-sm mb-5 text-blueGray-500 font-semibold py-1">
+                <div className="text-sm mb-5  font-semibold py-1">
                   Copyright © <span id="get-current-year">2022 </span>{" "}
                  
                   <a
                     href="https://www.upwork.com/freelancers/~01033ecc64c3594e80"
-                    className="text-blueGray-500 hover:text-blueGray-800"
+                    className="text-blueGray-500 hover:text-pink-900"
                   >
                     Srishti Suratkal
                   </a>
