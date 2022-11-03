@@ -137,10 +137,10 @@ const Service = () => {
               </a>
             </div>{" "}  </motion.div>
             {/* 2nd Service */}
-            <div className="block sm:ml-10 mt-10 lg:ml-48 lg:mr-14 lg:mt-8 border border-green-500 p-6 w-60 h-60 max-w-sm bg-opacity-0  bg-white rounded-xl rounded-tl-large  shadow-md hover:bg-green-900  hover:border-0">
+            <div className="block sm:ml-10 mt-10 lg:ml-48 lg:mr-14 lg:mt-8 border border-green-500 p-6 w-60 h-60 max-w-sm bg-opacity-0   rounded-xl rounded-tl-large  shadow-md  hover:border-0">
               <a
                 href="#"
-                className="block  -mt-6 -ml-6 border border-t-0 border-l-0  border-blue-700  p-6 w-60 h-60 max-w-sm bg-white rounded-xl rounded-tl-large   shadow-xl hover:bg-gray-100  bg-gray-900 hover:border-0 hover:bg-pink-900 "
+                className="block  -mt-6 -ml-6 border border-t-0 border-l-0  border-blue-700  p-6 w-60 h-60 max-w-sm  rounded-xl rounded-tl-large   shadow-xl   bg-gray-900 hover:border-0 hover:bg-pink-900 "
               >
                 <div className="  text-2xl text-center ml-7 mb-5  text-white">
                   Front-End Web Development
@@ -184,10 +184,10 @@ const Service = () => {
               </a>
             </div>
             {/* 3rd Service */}
-            <div className="block mt-10 sm:-ml-56 sm:-mt-32 md:-ml-60 lg:-mt-32 lg:-ml-24 border border-green-500 p-6 w-60 h-60 max-w-sm bg-opacity-0  bg-white rounded-xl rounded-tl-large  shadow-md hover:bg-green-900  hover:border-0">
+            <div className="block mt-10 sm:-ml-56 sm:-mt-32 md:-ml-60 lg:-mt-32 lg:-ml-24 border border-green-500 p-6 w-60 h-60 max-w-sm bg-opacity-0   rounded-xl rounded-tl-large  shadow-md   hover:border-0">
               <a
                 href="#"
-                className="block  -ml-6 -mt-6 border border-t-0 border-l-0  border-blue-700  p-6 w-60 h-60 max-w-sm bg-white rounded-xl rounded-tl-large  shadow-xl hover:bg-gray-100 bg-gray-900 hover:border-0  hover:bg-pink-900   "
+                className="block  -ml-6 -mt-6 border border-t-0 border-l-0  border-blue-700  p-6 w-60 h-60 max-w-sm  rounded-xl rounded-tl-large  shadow-xl  bg-gray-900 hover:border-0  hover:bg-pink-900   "
               >
                 <div className=" text-2xl text-center  -ml-1 mb-5 w-56 text-white">
                   Logo and Cover Designing
