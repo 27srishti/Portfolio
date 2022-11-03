@@ -23,7 +23,7 @@ const Portfolio = () => {
           ></a> */}
           <div className="block relative group   border border-red-700 p-6 w-64 h-64 max-w-sm bg-opacity-0   rounded-xl rounded-tl-large  shadow-md hover:border-red-700 hover:border-1">
             <a
-              href=""
+              href="https://sygma-2022.netlify.app/"
               className="block  -ml-6 -mt-6 border border-t-0 border-l-0  border-blue-700  w-64 h-64 max-w-sm  rounded-xl rounded-tl-large  shadow-xl  hover:border-blue-700 bg-gray-900 hover:border-1"
             >
               {" "}

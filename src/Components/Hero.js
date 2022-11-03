@@ -10,7 +10,7 @@ const Hero = () => {
     <div className="m-5 sm:m-14 md:m-14 lg:m-18 xl:m-30 2xl:m-32">
       <div className="   mx-auto  ">
         <div
-          className="    justify-center   flex grid-flow-col  text-black relative md:rounded-3xl md:rounded-br-extraLarge rounded-xl rounded-br-[8rem]  border border-gray-200 shadow-md  bg-gradient-to-tl  from-blue-top to-yellow-top    "
+          className="    justify-center   flex grid-flow-col  text-black relative md:rounded-3xl md:rounded-br-extraLarge rounded-xl rounded-br-[8rem]   shadow-md  bg-gradient-to-tl  from-blue-top to-yellow-top    "
           alt=""
         >
           <img
