@@ -17,10 +17,7 @@ const Portfolio = () => {
       <div className=" z-0 pl-7 mt-20  relative overflow-auto lg:overflow-x-hidden  lg:7/12 after:lg:py-0">
         <center></center>
         <div className="  m-4 w-max flex grid-cols-4 -space-x-6 text-white tracking-wide sm:space-x-0 gap-16 lg:gap-0 lg:w-full lg:grid px-0">
-          {/* <a
-            href="#"
-            className="block   border border-pink-900  p-6 w-60 h-60 max-w-sm bg-black rounded-xl rounded-tl-large  shadow-md hover:bg-gray-100 bg-gray-800  hover:bg-gray-700"
-          ></a> */}
+          
           <div className="block relative group   border border-red-700 p-6 w-64 h-64 max-w-sm bg-opacity-0   rounded-xl rounded-tl-large  shadow-md hover:border-red-700 hover:border-1">
             <a
               href="https://sygma-2022.netlify.app/"

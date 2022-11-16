@@ -14,7 +14,7 @@ const Hero = () => {
           alt=""
         >
           <img
-            className=" w-[14rem] -ml-10 lg:-ml-28 sm:w-[15rem] sm:h-[15rem] md:w-[28rem] md:-ml-20 md:h-[28rem] lg:w-[25rem] lg:h-[28rem] xl:w-[28rem] xl:h-[28rem] 2xl:w-[28rem] 2xl:h-[28rem]  "
+            className=" w-[14rem] -ml-10 lg:-ml-28 sm:w-[15rem] sm:h-[15rem] md:w-[28rem] md:-ml-20 md:h-[28rem] lg:w-[25rem] lg:h-[28rem] xl:w-[28rem] xl:h-[28rem] 2xl:w-[28rem] 2xl:h-[36rem]  "
             src={Women}
           />
           <div className="text-base lg:ml-0.5 md:-ml-28 md:mt-[5rem] sm:text-xl sm:mt-8 md:text-2xl text-black -ml-8 font-bold ">

@@ -10,9 +10,9 @@ const Footer = () => {
           rel="stylesheet"
           href="https://demos.creative-tim.com/notus-js/assets/vendor/@fortawesome/fontawesome-free/css/all.min.css"
         />
-        <footer className="relative bg-blueGray-200 pt-8 pb-6">
+        <footer className="relative bg-blueGray-200 pt-8 pb-6 ">
           <div className="container mx-auto px-4">
-            <div className="flex flex-wrap text-left lg:text-left">
+            <div className="flex flex-wrap  text-left lg:text-left">
               <div className="w-full lg:w-6/12 px-4">
                 <h4 className="text-3xl fonat-semibold text-gray-200">
                   Let's keep in touch!
@@ -24,14 +24,14 @@ const Footer = () => {
                   <a
                     className="  bg-gray-300 mr-2 hover:bg-gray-400   shadow-lg font-normal h-9 w-9  rounded-lg outline-none focus:outline-none "
                     type="button"
-                    href="https://www.upwork.com/freelancers/~01033ecc64c3594e80"
+                    href="https://www.fiverr.com/srishti_27"
                   >
-                    <img   className="pl-1.5  pt-1.5" src="https://img.icons8.com/fluency-systems-filled/24/000000/behance.png"/>
+                    <img   className="pl-1  pt-1" src="https://img.icons8.com/ios-glyphs/50/null/fiverr.png"/>
                   </a>
                   <a
                     className="  bg-gray-300 mr-2 hover:bg-gray-400  shadow-lg font-normal h-9 w-9  rounded-lg  outline-none focus:outline-none "
                     type="button"
-                    href="https://www.upwork.com/freelancers/~01033ecc64c3594e80"
+                    href="https://www.linkedin.com/in/srishti-suratkal-034188252/"
                   >
                     <img
                       className="pl-2  pt-1.5"

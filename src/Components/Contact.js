@@ -20,14 +20,14 @@ const Contact = () => {
     });
   };
   return (
-    <div>
+    <div className="">
       <div>
         {/* a lot of the lines are just svg text, actual html is simple 
 A sample contact us page form written with tailwind css
 Illustration from undraw.co by the amazing Katerina Limpitsouni
 */}
 
-        <div className="max-w-screen-xl  px-8 grid gap-8 grid-cols-1 md:grid-cols-2 md:px-12 lg:px-16 xl:px-32 py-16 mx-auto bg-black  bg-opacity-40 text-gray-900 rounded-lg shadow-lg">
+        <div className="max-w-screen-3xl  px-8 grid gap-8 grid-cols-1 md:grid-cols-2 md:px-12 lg:px-16 xl:px-32 py-16 mx-auto bg-black  bg-opacity-40 text-gray-900 rounded-lg shadow-lg">
           <div className="flex flex-col justify-between">
             <div>
               <h2

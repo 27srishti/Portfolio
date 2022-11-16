@@ -198,8 +198,8 @@ import skill from "../Image/skill.png";
 
 const Skills = () => {
   return (<center>
-    <div  className="r ">
-      <img className=" " src={skill}></img>
+    <div  className=" ">
+      <img className=" 2xl:w-full" src={skill}></img>
       
       <div
         id="Skills"

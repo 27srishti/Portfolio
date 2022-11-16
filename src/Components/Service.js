@@ -2,7 +2,7 @@ import React from "react";
 import { motion, useAnimation } from "framer-motion";
 const Service = () => {
   return (
-    <div className=" mx-5   ">
+    <div className=" mx-5  2xl:mx-28  ">
       <div
         id="Services"
         href="#Services"
