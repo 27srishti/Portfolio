@@ -1,27 +1,37 @@
 import React from "react";
 import Rect from "../Image/Rect.png";
 import Women from "../Image/Women.gif";
+
+import WomenBg from "../Image/Wbg.png";
+import Ani from "../Image/Ani.gif";
+
+import El2 from "../Image/El2.png";
+
 import Typewriter from "typewriter-effect";
 import * as LottiePlayer from "@lottiefiles/lottie-player";
-// import Skill from "../Image/Skill.png"
+
 
 const Hero = () => {
   return (
-    <div className="m-5 sm:m-14 md:m-14 lg:m-18 xl:m-30 2xl:m-32">
+   
+    <div className="m-5  sm:m-14 md:m-14 lg:m-18 xl:m-30 2xl:m-36 "> 
       <div className="   mx-auto  ">
+      
         <div
-          className="    justify-center   flex grid-flow-col  text-black relative md:rounded-3xl md:rounded-br-extraLarge rounded-xl rounded-br-[8rem]   shadow-md  bg-gradient-to-tl  from-blue-top to-yellow-top    "
+          className="  mt-32   justify-center   flex grid-flow-col bg-black bg-opacity-30  text-black relative md:rounded-3xl md:rounded-br-extraLarge rounded-xl rounded-br-[8rem]   shadow-md  border border   "
           alt=""
         >
           <img
-            className=" w-[14rem] -ml-10 lg:-ml-28 sm:w-[15rem] sm:h-[15rem] md:w-[28rem] md:-ml-20 md:h-[28rem] lg:w-[25rem] lg:h-[28rem] xl:w-[28rem] xl:h-[28rem] 2xl:w-[28rem] 2xl:h-[36rem]  "
+            className=" z-10 w-[14rem] z-50 -ml-10 lg:-ml-28 sm:w-[15rem] sm:h-[15rem] md:w-[28rem] md:-ml-20 md:h-[28rem] lg:w-[25rem] lg:h-[28rem] xl:w-[28rem] xl:h-[28rem] 2xl:w-[28rem] 2xl:h-[32rem]  "
             src={Women}
           />
-          <div className="text-base lg:ml-0.5 md:-ml-28 md:mt-[5rem] sm:text-xl sm:mt-8 md:text-2xl text-black -ml-8 font-bold ">
-            <div className=" text-2xl mt-5 sm:text-3xl lg:text-[2.5rem] w-full text-start mb-5  ">
-              Hey, I'am  <span className=" bg-gradient-to-l bg-clip-text text-transparent from-blue-900 to-rose-900 ">Srishti Suratkal</span>
+          <img className=" w-60 -ml-40 -mt-8 sm:w-92 sm:-ml-60 md:w-[35rem] md:-ml-80 md:-mt-20 lg:w-[38rem] lg:h-[35rem] lg:-ml-[34rem] xl:w-[42rem] xl:h-[35rem] xl:-ml-[34rem] xl:-mt-20 z-0 absolute " src={El2}></img>
+          <div className="text-base  sm:ml-5 md:ml-10 lg:ml-20 md:-ml-28 md:mt-[5rem] sm:text-2xl sm:mt-8 md:text-2xl text-white -ml-8 font-bold ">
+            <div className=" text-2xl mt-5 sm:text-3xl md:text-5xl  lg:text-[4rem] w-full text-start mb-5  ">
+             <span className=" bg-gradient-to-l bg-clip-text text-transparent  from-yellow-400 to-pink-800 text-white  ">Srishti Suratkal</span>
             </div>
-            <div className="-mt-3 lg:mt-10 lg:text-3xl  bg-gradient-to-l bg-clip-text text-transparent from-blue-900 to-rose-900 ">
+            <div className="-mt-3 lg:mt-10 lg:text-3xl  bg-gradient-to-l bg-clip-text text-transparent  from-yellow-400 to-pink-800 ">
+            <span className="text-white"> I am,</span> 
               <Typewriter
                 options={{
                   strings: [
@@ -37,15 +47,13 @@ const Hero = () => {
               />
             </div>
             
-            <div className=" text-base px-0.2 lg:mt-2 mt-2 sm:text-lg md:w-80 md:mt-3 md:text-xl  lg:text-2xl lg:w-full sm:w-56 w-40 text-start mb-5 text-black  bg-gradient-to-l bg-clip-text text-transparent from-blue-900 to-rose-900  ">
-              Excited to see you on my page !
-            </div>
+            
 
             <a
               href="#Contact"
-              class="relative inline-flex items-center justify-center  w-28 h-[3rem] mb-5 lg:w-32 lg:h-[3.5rem] p-4 px-6 py-3 border-b-[0.3rem] border-b-violet-900 overflow-hidden font-medium text-blue-900 transition duration-300 ease-out border-2 border-black rounded-lg rounded-tl-3xl shadow-md group"
+              class="relative  mt-5 lg:mt-5 inline-flex items-center justify-center  w-28 h-[3rem] mb-5 lg:w-32 lg:h-[3.5rem] p-4 px-6 py-3 border-b-[0.3rem] border-b-violet-900 overflow-hidden font-medium text-blue-900 transition duration-300 ease-out border-2 border-gray-500 rounded-lg rounded-tl-3xl shadow-md group"
             >
-              <span class="absolute inset-0 flex items-center justify-center w-full h-full text-white duration-300 -translate-x-full bg-black group-hover:translate-x-0 ease">
+              <span class="absolute  inset-0 flex items-center justify-center w-full h-full text-white duration-300 -translate-x-full bg-black group-hover:translate-x-0 ease">
                 <svg
                   className="ml-1 "
                   width="16"
@@ -58,8 +66,8 @@ const Hero = () => {
                 </svg>
               </span>
 
-              <span class="absolute  flex items-center text-base lg:text-xl font-bold  justify-center  w-full h-full  bg-gradient-to-l bg-clip-text text-transparent from-blue-900 to-rose-900 transition-all duration-300 transform group-hover:translate-x-full ease">
-                Hire Now{" "}
+              <span class="absolute  flex items-center text-base lg:text-xl font-bold  justify-center  w-full h-full  bg-gradient-to-l bg-clip-text text-transparent  from-yellow-400 to-pink-800 transition-all duration-300 transform group-hover:translate-x-full ease">
+                Let's talk{" "}
                 <svg
                   className="ml-1"
                   width="16"
@@ -76,6 +84,7 @@ const Hero = () => {
           </div>
         </div>
       </div>
+    
     </div>
   );
 };

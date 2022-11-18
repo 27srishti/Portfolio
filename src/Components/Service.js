@@ -1,34 +1,50 @@
 import React from "react";
 import { motion, useAnimation } from "framer-motion";
+import LineGradient from "../Components/LineGradient";
 const Service = () => {
   return (
-    <div className=" mx-5  2xl:mx-28  ">
+    <div className=" relative  ">
+      <div className=" ">
+      <LineGradient className="w-full  " /></div>
+      <div className="  mx-5  2xl:mx-40">
       <div
         id="Services"
         href="#Services"
-        className=" < text-2xl text-center  sm:text-start sm:ml-10 md:ml-10  md:text-left mt-12  md:text-4xl   font-bold bg-gradient-to-l bg-clip-text text-transparent from-yellow-300 to-pink-900 "
+        className=" < text-2xl  text-center  sm:text-start sm:ml-10 md:ml-10  md:text-left mt-12  md:text-4xl   font-bold bg-gradient-to-l bg-clip-text text-transparent from-yellow-300 to-pink-900 "
       >
         My Services{" "}
-      </div>
-      <div className="flex  sm:justify-between grid sm:grid-flow-col   ">
+      </div>{" "}
+       <div className="flex  sm:justify-between grid sm:grid-flow-col   "><motion.div
+        initial="hidden"
+        whileInView="visible"
+        viewport={{once:true, amount:0.5}}
+        transition={{delay:0.2,duration:1}}
+        variants={{
+          hidden:{opacity:0,x:-50},
+          visible:{opacity:1,x:0}
+        }}
+        >
+        
         <div className="">
-          
           <center>
             <div className=" px-2 lg:px-28 lg:text-lg  lg:w-full  mt-3  w-[20rem]  text-center  sm:text-start md:text-start md:-ml-28 lg:-ml-40 md:mt-10  text-gray-400   ">
-              Hello! 
+              Hello!
               <br />
               <div className="mt-2">
-              I`m a UX/UI Designer, FrontEnd Developer, Logo Maker would help
-              clients achieve their business goals through intuitive and
-              cutting-edge designs with clean and eye-catching expandable code.I
-              do my best to meet clients’ goals and deadlines through proactive
-              communication and while focusing on the user-centric design
-              philosophy.</div>
+                I`m a UX/UI Designer, FrontEnd Developer, Logo Maker would help
+                clients achieve their business goals through intuitive and
+                cutting-edge designs with clean and eye-catching expandable
+                code.I do my best to meet clients’ goals and deadlines through
+                proactive communication and while focusing on the user-centric
+                design philosophy.
+              </div>
               <br />
-              <div className="lg:text-xl">Happily looking forword to work with you!</div>
+              <div className="lg:text-xl">
+                Happily looking forword to work with you!
+              </div>
             </div>{" "}
           </center>
-          
+
           <div className="mt-20  grid-flow-col lg:ml-7 lg:w-98 lg:ml-14 invisible  sm:visible sm:ml-12  md:visible lg:visible xl:visible 2xl:visible">
             <button
               type="button"
@@ -80,63 +96,77 @@ const Service = () => {
               +
             </button>
           </div>
-        </div>
+        </div></motion.div>
         <div>
           <div className="grid justify-center -mt-28 sm:mt-56  ">
-          <motion.div
-          className="control"
-          
-          transition={{ duration: 2 }}
-        >
-            {/* 1st Service */}
-            <div className=" block  -mt-20 lg:-mt-60 border border-green-500 p-6 w-60 h-60 max-w-sm bg-opacity-0   rounded-xl rounded-tl-large  shadow-md   hover:border-0">
-              <a
-                href="#"
-                className="block -mt-6 -ml-6 border border-t-0 border-l-0  border-blue-700  p-6 w-60 h-60 max-w-sm  rounded-xl rounded-tl-large   shadow-xl   bg-gray-900 hover:border-0 hover:bg-pink-900"
-              >
-                {" "}
-                <div className="  text-2xl  mt-3 ml-5 mb-5 w-100 text-white ">
-                  UI/UX Designing
-                </div>
-                <div className="-ml-2 flex w-100 grid-flow-col mt-2 ">
-                  <img
-                    className=""
-                    src="https://img.icons8.com/doodle/25/000000/checkmark.png"
-                  />
-                  <div className="  text-sm   ml-2 w-100 text-gray-400 ">
-                    Fully Responsive UX/UI.
+            <motion.div
+            initial="hidden"
+            whileInView="visible"
+            viewport={{once:true, amount:0.5}}
+            transition={{delay:0.5,duration:1.5,type:"spring"}}
+            variants={{
+              hidden:{opacity:0,x:300},
+              visible:{opacity:1,x:0}}}
+            >
+              {/* 1st Service */}
+              <div className=" block  -mt-20 lg:-mt-60 border border-green-500 p-6 w-60 h-60 max-w-sm bg-opacity-0   rounded-xl rounded-tl-large  shadow-md   hover:border-0">
+                <a
+                  href="#"
+                  className="block -mt-6 -ml-6 border border-t-0 border-l-0  border-blue-700  p-6 w-60 h-60 max-w-sm  rounded-xl rounded-tl-large   shadow-xl   bg-gray-900 hover:border-0 hover:bg-pink-900"
+                >
+                  {" "}
+                  <div className="  text-2xl  mt-3 ml-5 mb-5 w-100 text-white ">
+                    UI/UX Designing
                   </div>
-                </div>{" "}
-                <div className="-ml-2 flex w-100 grid-flow-col mt-2 ">
-                  <img
-                    className=""
-                    src="https://img.icons8.com/doodle/25/000000/checkmark.png"
-                  />
-                  <div className=" text-sm   ml-2  text-gray-400 ">
-                    Cross-Platform Compatibility.
+                  <div className="-ml-2 flex w-100 grid-flow-col mt-2 ">
+                    <img
+                      className=""
+                      src="https://img.icons8.com/doodle/25/000000/checkmark.png"
+                    />
+                    <div className="  text-sm   ml-2 w-100 text-gray-400 ">
+                      Fully Responsive UX/UI.
+                    </div>
+                  </div>{" "}
+                  <div className="-ml-2 flex w-100 grid-flow-col mt-2 ">
+                    <img
+                      className=""
+                      src="https://img.icons8.com/doodle/25/000000/checkmark.png"
+                    />
+                    <div className=" text-sm   ml-2  text-gray-400 ">
+                      Cross-Platform Compatibility.
+                    </div>
+                  </div>{" "}
+                  <div className="-ml-2 flex grid-flow-col mt-2 ">
+                    <img
+                      className=""
+                      src="https://img.icons8.com/doodle/25/000000/checkmark.png"
+                    />
+                    <div className="  text-sm   ml-2 w-100 text-gray-400 ">
+                      Software Redesign.
+                    </div>
+                  </div>{" "}
+                  <div className="-ml-2 flex  grid-flow-col mt-2 ">
+                    <img
+                      className=""
+                      src="https://img.icons8.com/doodle/25/000000/checkmark.png"
+                    />
+                    <div className="  text-sm   ml-2 w-100 text-gray-400 ">
+                      UI Testing Process.
+                    </div>
                   </div>
-                </div>{" "}
-                <div className="-ml-2 flex grid-flow-col mt-2 ">
-                  <img
-                    className=""
-                    src="https://img.icons8.com/doodle/25/000000/checkmark.png"
-                  />
-                  <div className="  text-sm   ml-2 w-100 text-gray-400 ">
-                    Software Redesign.
-                  </div>
-                </div>{" "}
-                <div className="-ml-2 flex  grid-flow-col mt-2 ">
-                  <img
-                    className=""
-                    src="https://img.icons8.com/doodle/25/000000/checkmark.png"
-                  />
-                  <div className="  text-sm   ml-2 w-100 text-gray-400 ">
-                    UI Testing Process.
-                  </div>
-                </div>
-              </a>
-            </div>{" "}  </motion.div>
+                </a>
+              </div>{" "}
+            </motion.div>
             {/* 2nd Service */}
+            <motion.div
+            initial="hidden"
+            whileInView="visible"
+            viewport={{once:true, amount:0.5}}
+            transition={{delay:0.5,duration:1}}
+            variants={{
+              hidden:{opacity:0,y:150},
+              visible:{opacity:1,y:0}}}
+            >
             <div className="block sm:ml-10 mt-10 lg:ml-48 lg:mr-14 lg:mt-8 border border-green-500 p-6 w-60 h-60 max-w-sm bg-opacity-0   rounded-xl rounded-tl-large  shadow-md  hover:border-0">
               <a
                 href="#"
@@ -182,8 +212,18 @@ const Service = () => {
                   </div>
                 </div>
               </a>
-            </div>
+            </div></motion.div>
             {/* 3rd Service */}
+            <motion.div
+        initial="hidden"
+        whileInView="visible"
+        viewport={{once:true, amount:0.5}}
+        transition={{delay:0.4,duration:1}}
+        variants={{
+          hidden:{opacity:0,x:-150},
+          visible:{opacity:1,x:0}
+        }}
+        >
             <div className="block mt-10 sm:-ml-56 sm:-mt-32 md:-ml-60 lg:-mt-32 lg:-ml-24 border border-green-500 p-6 w-60 h-60 max-w-sm bg-opacity-0   rounded-xl rounded-tl-large  shadow-md   hover:border-0">
               <a
                 href="#"
@@ -229,9 +269,9 @@ const Service = () => {
                   </div>
                 </div>
               </a>
-            </div>
+            </div></motion.div>
           </div>
-        </div>
+        </div></div>
       </div>
     </div>
   );

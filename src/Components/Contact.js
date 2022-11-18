@@ -27,17 +27,17 @@ A sample contact us page form written with tailwind css
 Illustration from undraw.co by the amazing Katerina Limpitsouni
 */}
 
-        <div className="max-w-screen-3xl  px-8 grid gap-8 grid-cols-1 md:grid-cols-2 md:px-12 lg:px-16 xl:px-32 py-16 mx-auto bg-black  bg-opacity-40 text-gray-900 rounded-lg shadow-lg">
+        <div className="max-w-screen-3xl z-50 px-8 grid gap-8 grid-cols-1 md:grid-cols-2 md:px-12 lg:px-16 xl:px-32 py-16 mx-auto bg-black  bg-opacity-40 text-gray-900 rounded-lg shadow-lg">
           <div className="flex flex-col justify-between">
             <div>
               <h2
                 id="Contact"
                 href="#Contact"
-                className="text-4xl text-white lg:text-5xl font-bold leading-tight"
+                className="text-4xl text-violet-900 lg:text-5xl font-bold leading-tight"
               >
                 Get In Touch!
               </h2>
-              <div className="text-white mt-8 grid grid-cols-2  ">
+              <div className="text-white mt-10 grid grid-cols-2  ">
                 <img src="https://img.icons8.com/nolan/40/ringer-volume.png" />
                 <div className="-ml-[6rem] lg:-ml-[12rem] sm:-ml-[15rem] md:-ml-[6rem] -mt-1">
                   Call Me :
@@ -91,6 +91,7 @@ Illustration from undraw.co by the amazing Katerina Limpitsouni
                     height="49.48"
                     patternUnits="userSpaceOnUse"
                     viewBox="0 0 36.88 49.48"
+                    className=" z-50"
                   >
                     <rect width="36.88" height="49.48" fill="none" />
                     <path d="M4.33,13.19c4.5,0,4.51-7,0-7s-4.52,7,0,7Z" />
@@ -1061,7 +1062,7 @@ Illustration from undraw.co by the amazing Katerina Limpitsouni
                   }}
                 />
               </div>
-              <div className="mt-8">
+              <div className="mt-8 ">
                 <button
                   onClick={Message}
                   className="w-40 lg:ml-80 uppercase text-sm font-bold tracking-wide bg-indigo-800 text-gray-100 p-3 rounded-lg w-full focus:outline-none focus:shadow-outline hover:bg-opacity-80"

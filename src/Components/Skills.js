@@ -195,16 +195,25 @@
 // export default Skills;
 import React from "react";
 import skill from "../Image/skill.png";
-
+import { motion, useAnimation } from "framer-motion";
 const Skills = () => {
   return (<center>
     <div  className=" ">
       <img className=" 2xl:w-full" src={skill}></img>
-      
+      <motion.div
+        initial="hidden"
+        whileInView="visible"
+        viewport={{once:true, amount:0.5}}
+        transition={{delay:0.1, duration:1}}
+        variants={{
+          hidden:{opacity:0,y:-60},
+          visible:{opacity:1,y:0}
+        }}
+        >
       <div
         id="Skills"
         href="#Skills"
-        className="block   mx-3 -mt-[6rem] sm:-mt-[11rem] md:-mt-[12.5rem] lg:-mt-[20rem] xl:-mt-40 md:w-[40rem] lg:-mt-[14rem] xl:-mt-[16rem]  2xl:-mt-[18rem] lg:w-99 lg:h-98   relative  border border-gray-800   p-6  rounded-3xl  shadow-xl  bg-black bg-opacity-20  "
+        className="block mx-3 -mt-[6rem] sm:-mt-[11rem] md:-mt-[12.5rem] lg:-mt-[20rem] xl:-mt-40 md:w-[40rem] lg:-mt-[14rem] xl:-mt-[16rem]  2xl:-mt-[18rem] lg:w-99 lg:h-98   relative  border border-gray-800   p-6  rounded-3xl  shadow-xl  bg-black bg-opacity-20  "
       ><a >
         <center>
             <div className=" <  text-4xl xl:text-5xl mb-5 bg-gradient-to-l bg-clip-text text-transparent from-blue-900 to-black font-bold text-white ">
@@ -355,7 +364,7 @@ const Skills = () => {
           </div>  
           <></>
         </a>
-      </div>
+      </div></motion.div>
     </div></center>
   );
 };

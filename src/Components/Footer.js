@@ -1,5 +1,5 @@
 import React from "react";
-
+// import Element from "../Image/El.gif"
 const Footer = () => {
   return (
     <div>
@@ -9,8 +9,9 @@ const Footer = () => {
         <link
           rel="stylesheet"
           href="https://demos.creative-tim.com/notus-js/assets/vendor/@fortawesome/fontawesome-free/css/all.min.css"
-        />
-        <footer className="relative bg-blueGray-200 pt-8 pb-6 ">
+        />{" "}
+        {/* <img className=" absolute opacity-30 mt-5 z-0" src={Element}></img> */}
+        <footer className="relative bg-blueGray-200 pt-8  ">
           <div className="container mx-auto px-4">
             <div className="flex flex-wrap  text-left lg:text-left">
               <div className="w-full lg:w-6/12 px-4">
@@ -26,7 +27,10 @@ const Footer = () => {
                     type="button"
                     href="https://www.fiverr.com/srishti_27"
                   >
-                    <img   className="pl-1  pt-1" src="https://img.icons8.com/ios-glyphs/50/null/fiverr.png"/>
+                    <img
+                      className="pl-1  pt-1"
+                      src="https://img.icons8.com/ios-glyphs/50/null/fiverr.png"
+                    />
                   </a>
                   <a
                     className="  bg-gray-300 mr-2 hover:bg-gray-400  shadow-lg font-normal h-9 w-9  rounded-lg  outline-none focus:outline-none "
@@ -109,7 +113,6 @@ const Footer = () => {
                       </li>
                     </ul>
                   </div>
-                  
                 </div>
               </div>
             </div>
@@ -118,7 +121,6 @@ const Footer = () => {
               <div className="w-full md:w-4/12 px-4 mx-auto text-center">
                 <div className="text-sm mb-5  font-semibold py-1">
                   Copyright © <span id="get-current-year">2022 </span>{" "}
-                 
                   <a
                     href="https://www.upwork.com/freelancers/~01033ecc64c3594e80"
                     className="text-blueGray-500 hover:text-pink-900"

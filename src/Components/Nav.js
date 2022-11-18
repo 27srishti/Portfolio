@@ -6,43 +6,43 @@ import { Transition } from "@headlessui/react";
 const Nav = () => {
   const [isOpen, setIsOpen] = useState(false);
   return (
-   
-      <div className="border-b-2 h-28  border-white border-opacity-10 mb-10">
-        <div className="max-w-7xl  -ml-10 mx-auto px-4 sm:px-6 lg:px-8">
-          <div className=" w-10 flex items-center h-16  ">
-            <div className="flex items-center">
-              <div className="hidden md:block ">
-                <div className=" sm:mx-[10rem] lg:mx-[24rem] 2xl:mx-[45rem] mb-60 mt-72 flex items-baseline space-x-12 ">
-                  {" "}
-                  <a href="#Home">
-                    <a className=" text-gray-300    hover:border-b-2 hover:border-yellow-400 hover:text-white px-3 py-2 rounded-sm text-base font-medium">
-                      Home
-                    </a>
+    <div className="border-b-2 fixed h-[5rem]  top-0 flex right-0  left-0 bottom-0 flex z-50  backdrop-blur-sm h-20  border-white border-opacity-10 mb-10 bg-black bg-opacity-10 bg-scroll ">
+      <div className="max-w-7xl  -ml-10 mx-auto  px-4 sm:px-6 lg:px-8">
+        <div className=" w-10 flex items-center h-8">
+          <div className="flex items-center">
+            <div className="hidden md:block ">
+              <div className=" sm:mx-[10rem] lg:mx-[24rem] 2xl:mx-[45rem] mb-60 mt-72 flex items-baseline space-x-12 ">
+                <a href="#Home">
+                  <a className=" text-gray-300    hover:border-b-2 hover:border-yellow-400 hover:text-white px-3 py-2 rounded-sm text-base font-medium">
+                    Home
                   </a>
-                  <a href="#Services">
-                    <a className="text-gray-300    hover:border-b-2 hover:border-yellow-400 hover:text-white px-3 py-2 rounded-sm text-base font-medium">
-                      Services
-                    </a>
+                </a>
+                <a href="#Services">
+                  <a className="text-gray-300    hover:border-b-2 hover:border-yellow-400 hover:text-white px-3 py-2 rounded-sm text-base font-medium">
+                    Services
                   </a>
-                  <a href="#Skills ">
-                    <a className="text-gray-300    hover:border-b-2 hover:border-yellow-400 hover:text-white px-3 py-2 rounded-sm text-base font-medium">
-                      Skills
-                    </a>
+                </a>
+                <a href="#Skills ">
+                  <a className="text-gray-300    hover:border-b-2 hover:border-yellow-400 hover:text-white px-3 py-2 rounded-sm text-base font-medium">
+                    Skills
                   </a>
-                  <a href="#Portfolio">
-                    <a className="text-gray-300    hover:border-b-2 hover:border-yellow-400 hover:text-white px-3 py-2 rounded-sm text-base font-medium">
-                      Portfolio
-                    </a>
-                  </a>{" "}
-                  <a href="#Contact">
-                    <a className="text-gray-300    hover:border-b-2 hover:border-yellow-400 hover:text-white px-3 py-2 rounded-sm text-base font-medium">
-                      Contact
-                    </a>
-                  </a>{" "}
-                </div>
+                </a>
+                <a href="#Portfolio">
+                  <a className="text-gray-300    hover:border-b-2 hover:border-yellow-400 hover:text-white px-3 py-2 rounded-sm text-base font-medium">
+                    Portfolio
+                  </a>
+                </a>{" "}
+                <a href="#Contact">
+                  <a className="text-gray-300    hover:border-b-2 hover:border-yellow-400 hover:text-white px-3 py-2 rounded-sm text-base font-medium">
+                    Contact
+                  </a>
+                </a>
               </div>
             </div>
-            {/* <div className="ml-10 mt-10 flex md:hidden">
+          </div>
+          
+
+          {/* <div className="ml-10 mt-10 flex md:hidden">
               <button
                 onClick={() => setIsOpen(!isOpen)}
                 type="button"
@@ -86,10 +86,10 @@ const Nav = () => {
                 )}
               </button>
             </div> */}
-          </div>
         </div>
+      </div>
 
-        {/* <Transition
+      {/* <Transition
           show={isOpen}
           enter="transition ease-out duration-100 transform"
           enterFrom="opacity-0 scale-95"
@@ -140,10 +140,7 @@ const Nav = () => {
             </div>
           )} 
         </Transition>*/}
-
-        
-      </div>
-
+    </div>
   );
 };
 
