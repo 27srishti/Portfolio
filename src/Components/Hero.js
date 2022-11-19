@@ -41,7 +41,7 @@ const scaleX = useSpring(scrollYProgress, {
             viewport={{once:true, amount:0.5}}
             transition={{delay:0.5,duration:1.5,type:"spring"}}
             variants={{
-              hidden:{opacity:0,x:150},
+              hidden:{opacity:0,x:50},
               visible:{opacity:1,x:0}}}
             >   
                      <span className=" bg-gradient-to-l bg-clip-text text-transparent  from-yellow-400 to-pink-800   ">Srishti Suratkal</span></motion.div> 
