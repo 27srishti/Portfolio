@@ -2,17 +2,18 @@ import React from "react";
 import { useState } from "react";
 import { motion, useAnimation } from "framer-motion";
 import { Transition } from "@headlessui/react";
-
+import logo from "../Image/logo.png";
 const Nav = () => {
   
   const [isOpen, setIsOpen] = useState(false);
   return (
     <div className="border-b-2 fixed h-[5rem]  top-0 flex right-0  left-0 bottom-0 flex z-50  backdrop-blur-sm h-20  border-white border-opacity-10 mb-10 bg-black bg-opacity-10 bg-scroll ">
-      <div className="max-w-7xl  -ml-10 mx-auto  px-4 sm:px-6 lg:px-8">
+  <div className="max-w-7xl  -ml-10 mx-auto  px-4 sm:px-6 lg:px-8">
         <div className=" w-10 flex items-center h-8">
           <div className="flex items-center">
-            <div className="hidden md:block ">
+            <div className="hidden md:block "> 
               <div className=" sm:mx-[10rem] lg:mx-[24rem] 2xl:mx-[45rem] mb-60 mt-72 flex items-baseline space-x-12 ">
+              
                 <motion.div
                   initial="hidden"
                   whileInView="visible"
@@ -23,6 +24,7 @@ const Nav = () => {
                     visible: { opacity: 1, x: 0 },
                   }}
                 >
+
                   <a href="#Home">
                     <a className=" text-gray-300    hover:border-b-2 hover:border-yellow-400 hover:text-white px-3 py-2 rounded-sm text-base font-medium">
                       Home
