@@ -9,12 +9,19 @@ import El2 from "../Image/El2.png";
 
 import Typewriter from "typewriter-effect";
 import * as LottiePlayer from "@lottiefiles/lottie-player";
+import { motion, useAnimation ,useScroll, useSpring } from "framer-motion";
 
 
 const Hero = () => {
+  const { scrollYProgress } = useScroll();
+const scaleX = useSpring(scrollYProgress, {
+  stiffness: 100,
+  damping: 30,
+  restDelta: 0.001
+});
   return (
    
-    <div className="m-5  sm:m-14 md:m-14 lg:m-18 xl:m-30 2xl:m-36 "> 
+    <div className="m-5 progress-bar sm:m-14 md:m-14 lg:m-18 xl:m-30 2xl:m-36 "> 
       <div className="   mx-auto  ">
       
         <div
@@ -22,16 +29,33 @@ const Hero = () => {
           alt=""
         >
           <img
-            className=" z-10 w-[14rem] z-50 -ml-10 lg:-ml-28 sm:w-[15rem] sm:h-[15rem] md:w-[28rem] md:-ml-20 md:h-[28rem] lg:w-[25rem] lg:h-[28rem] xl:w-[28rem] xl:h-[28rem] 2xl:w-[28rem] 2xl:h-[32rem]  "
+            className=" z-10 w-[14rem] z-50 -ml-10 lg:-ml-28 sm:w-[15rem] sm:-ml-20 sm:h-[15rem] md:w-[28rem] md:-ml-20 md:h-[28rem] lg:w-[25rem] lg:h-[28rem] xl:w-[30rem] xl:h-[28rem] 2xl:w-[36rem] 2xl:h-[36rem] 2xl:-ml-40 2xl:-mt-10 "
             src={Women}
           />
-          <img className=" w-60 -ml-40 -mt-8 sm:w-92 sm:-ml-60 md:w-[35rem] md:-ml-80 md:-mt-20 lg:w-[38rem] lg:h-[35rem] lg:-ml-[34rem] xl:w-[42rem] xl:h-[35rem] xl:-ml-[34rem] xl:-mt-20 z-0 absolute " src={El2}></img>
-          <div className="text-base  sm:ml-5 md:ml-10 lg:ml-20 md:-ml-28 md:mt-[5rem] sm:text-2xl sm:mt-8 md:text-2xl text-white -ml-8 font-bold ">
+          <img className=" w-48 -ml-40 -mt-2 sm:w-60 sm:-ml-[20rem] md:w-[25rem] md:-ml-80 md:-mt-15 lg:w-[28rem] lg:h-[30rem] lg:-mt-10 lg:-ml-[38rem] xl:w-[38rem] xl:h-[32rem] xl:-ml-[40rem] xl:-mt-[4rem] z-0 absolute " src={El2}></img>
+          <div className="text-base  sm:ml-10  md:ml-10 lg:ml-20 md:-ml-28 md:mt-[5rem] sm:text-2xl sm:mt-8 md:text-2xl text-white -ml-8 font-bold ">
             <div className=" text-2xl mt-5 sm:text-3xl md:text-5xl  lg:text-[4rem] w-full text-start mb-5  ">
-             <span className=" bg-gradient-to-l bg-clip-text text-transparent  from-yellow-400 to-pink-800 text-white  ">Srishti Suratkal</span>
+            <motion.div
+            initial="hidden"
+            whileInView="visible"
+            viewport={{once:true, amount:0.5}}
+            transition={{delay:0.5,duration:1.5,type:"spring"}}
+            variants={{
+              hidden:{opacity:0,x:150},
+              visible:{opacity:1,x:0}}}
+            >   
+                     <span className=" bg-gradient-to-l bg-clip-text text-transparent  from-yellow-400 to-pink-800 text-white  ">Srishti Suratkal</span></motion.div> 
             </div>
             <div className="-mt-3 lg:mt-10 lg:text-3xl  bg-gradient-to-l bg-clip-text text-transparent  from-yellow-400 to-pink-800 ">
-            <span className="text-white"> I am,</span> 
+            <motion.div
+            initial="hidden"
+            whileInView="visible"
+            viewport={{once:true, amount:0.5}}
+            transition={{delay:0.5,duration:1.5,type:"spring"}}
+            variants={{
+              hidden:{opacity:0,x:-150},
+              visible:{opacity:1,x:0}}}
+            >   <span className="text-white"> I am,</span> </motion.div> 
               <Typewriter
                 options={{
                   strings: [

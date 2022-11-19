@@ -15,7 +15,7 @@ const Footer = () => {
           <div className="container mx-auto px-4">
             <div className="flex flex-wrap  text-left lg:text-left">
               <div className="w-full lg:w-6/12 px-4">
-                <h4 className="text-3xl fonat-semibold text-gray-200">
+                <h4 className="text-3xl fonat-semibold bg-gradient-to-l bg-clip-text text-transparent  from-blue-400 to-pink-800 text-gray-200">
                   Let's keep in touch!
                 </h4>
                 <h5 className="text-lg  text-gray-400">
@@ -67,13 +67,13 @@ const Footer = () => {
               <div className="w-full mt-5 lg:w-6/12 px-4">
                 <div className="flex flex-wrap items-top mb-6 text-right">
                   <div className="w-full lg:w-4/12 px-4 ml-auto">
-                    <span className="block uppercase text-gray-200 text-md  font-semibold mb-2">
+                    <span className="block uppercase text-gray-200 bg-gradient-to-l bg-clip-text text-transparent  from-blue-400 to-pink-600 text-md  font-semibold mb-2">
                       Useful Links
                     </span>
                     <ul className="list-unstyled">
                       <li>
                         <a
-                          className="text-gray-400 hover:text-gray-500  font-semibold block pb-2 text-sm"
+                          className=" hover:text-gray-500  font-semibold block pb-2 text-sm"
                           href="#Home"
                         >
                           Home
@@ -81,7 +81,7 @@ const Footer = () => {
                       </li>
                       <li>
                         <a
-                          className="text-gray-400 hover:text-gray-500 font-semibold block pb-2 text-sm"
+                          className=" hover:text-gray-500 font-semibold block pb-2 text-sm"
                           href="#Services"
                         >
                           Services
@@ -89,7 +89,7 @@ const Footer = () => {
                       </li>
                       <li>
                         <a
-                          className="text-gray-400 hover:text-gray-500 font-semibold block pb-2 text-sm"
+                          className=" hover:text-gray-500 font-semibold block pb-2 text-sm"
                           href="#Skills"
                         >
                           Skills
@@ -97,7 +97,7 @@ const Footer = () => {
                       </li>
                       <li>
                         <a
-                          className="text-gray-400 hover:text-gray-500 font-semibold block pb-2 text-sm"
+                          className=" hover:text-gray-500 font-semibold block pb-2 text-sm"
                           href="#Portfolio"
                         >
                           Portfolio
@@ -105,7 +105,7 @@ const Footer = () => {
                       </li>{" "}
                       <li>
                         <a
-                          className="text-gray-400 hover:text-gray-500 font-semibold block pb-2 text-sm"
+                          className=" hover:text-gray-500 font-semibold block pb-2 text-sm"
                           href="#Contact"
                         >
                           Contact US
@@ -123,7 +123,7 @@ const Footer = () => {
                   Copyright © <span id="get-current-year">2022 </span>{" "}
                   <a
                     href="https://www.upwork.com/freelancers/~01033ecc64c3594e80"
-                    className="text-blueGray-500 hover:text-pink-900"
+                    className="text-blueGray-500 bg-gradient-to-l bg-clip-text text-transparent  from-blue-400 to-pink-400 hover:text-lime-300"
                   >
                     Srishti Suratkal
                   </a>

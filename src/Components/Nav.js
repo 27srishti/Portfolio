@@ -1,9 +1,10 @@
 import React from "react";
 import { useState } from "react";
-
+import { motion, useAnimation } from "framer-motion";
 import { Transition } from "@headlessui/react";
 
 const Nav = () => {
+  
   const [isOpen, setIsOpen] = useState(false);
   return (
     <div className="border-b-2 fixed h-[5rem]  top-0 flex right-0  left-0 bottom-0 flex z-50  backdrop-blur-sm h-20  border-white border-opacity-10 mb-10 bg-black bg-opacity-10 bg-scroll ">
@@ -12,35 +13,89 @@ const Nav = () => {
           <div className="flex items-center">
             <div className="hidden md:block ">
               <div className=" sm:mx-[10rem] lg:mx-[24rem] 2xl:mx-[45rem] mb-60 mt-72 flex items-baseline space-x-12 ">
-                <a href="#Home">
-                  <a className=" text-gray-300    hover:border-b-2 hover:border-yellow-400 hover:text-white px-3 py-2 rounded-sm text-base font-medium">
-                    Home
+                <motion.div
+                  initial="hidden"
+                  whileInView="visible"
+                  viewport={{ once: true, amount: 0.5 }}
+                  transition={{ delay: 0.5, duration: 3, type: "spring" }}
+                  variants={{
+                    hidden: { opacity: 0, x: -150 },
+                    visible: { opacity: 1, x: 0 },
+                  }}
+                >
+                  <a href="#Home">
+                    <a className=" text-gray-300    hover:border-b-2 hover:border-yellow-400 hover:text-white px-3 py-2 rounded-sm text-base font-medium">
+                      Home
+                    </a>
                   </a>
-                </a>
-                <a href="#Services">
-                  <a className="text-gray-300    hover:border-b-2 hover:border-yellow-400 hover:text-white px-3 py-2 rounded-sm text-base font-medium">
-                    Services
+                </motion.div>
+                <motion.div
+                  initial="hidden"
+                  whileInView="visible"
+                  viewport={{ once: true, amount: 0.5 }}
+                  transition={{ delay: 0.6, duration:2, type: "spring" }}
+                  variants={{
+                    hidden: { opacity: 0, x: -180 },
+                    visible: { opacity: 1, x: 0 },
+                  }}
+                >
+                  <a href="#Services">
+                    <a className="text-gray-300    hover:border-b-2 hover:border-yellow-400 hover:text-white px-3 py-2 rounded-sm text-base font-medium">
+                      Services
+                    </a>
                   </a>
-                </a>
-                <a href="#Skills ">
-                  <a className="text-gray-300    hover:border-b-2 hover:border-yellow-400 hover:text-white px-3 py-2 rounded-sm text-base font-medium">
-                    Skills
+                </motion.div>
+                <motion.div
+                  initial="hidden"
+                  whileInView="visible"
+                  viewport={{ once: true, amount: 0.5 }}
+                  transition={{ delay: 0.5, duration: 2, type: "spring" }}
+                  variants={{
+                    hidden: { opacity: 0, x:0 },
+                    visible: { opacity: 1, x: 0 },
+                  }}
+                >
+                  <a href="#Skills ">
+                    <a className="text-gray-300    hover:border-b-2 hover:border-yellow-400 hover:text-white px-3 py-2 rounded-sm text-base font-medium">
+                      Skills
+                    </a>
                   </a>
-                </a>
-                <a href="#Portfolio">
-                  <a className="text-gray-300    hover:border-b-2 hover:border-yellow-400 hover:text-white px-3 py-2 rounded-sm text-base font-medium">
-                    Portfolio
+                </motion.div>
+                <motion.div
+                  initial="hidden"
+                  whileInView="visible"
+                  viewport={{ once: true, amount: 0.5 }}
+                  transition={{ delay: 0.6, duration: 2, type: "spring" }}
+                  variants={{
+                    hidden: { opacity: 0, x: 180 },
+                    visible: { opacity: 1, x: 0 },
+                  }}
+                >
+                  <a href="#Portfolio">
+                    <a className="text-gray-300    hover:border-b-2 hover:border-yellow-400 hover:text-white px-3 py-2 rounded-sm text-base font-medium">
+                      Portfolio
+                    </a>
+                  </a>{" "}
+                </motion.div>
+                <motion.div
+                  initial="hidden"
+                  whileInView="visible"
+                  viewport={{ once: true, amount: 0.5 }}
+                  transition={{ delay:0.5, duration: 3, type: "spring" }}
+                  variants={{
+                    hidden: { opacity: 0, x: 150 },
+                    visible: { opacity: 1, x: 0 },
+                  }}
+                >
+                  <a href="#Contact">
+                    <a className="text-gray-300    hover:border-b-2 hover:border-yellow-400 hover:text-white px-3 py-2 rounded-sm text-base font-medium">
+                      Contact
+                    </a>
                   </a>
-                </a>{" "}
-                <a href="#Contact">
-                  <a className="text-gray-300    hover:border-b-2 hover:border-yellow-400 hover:text-white px-3 py-2 rounded-sm text-base font-medium">
-                    Contact
-                  </a>
-                </a>
+                </motion.div>
               </div>
             </div>
           </div>
-          
 
           {/* <div className="ml-10 mt-10 flex md:hidden">
               <button

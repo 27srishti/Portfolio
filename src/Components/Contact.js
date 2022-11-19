@@ -2,6 +2,7 @@ import React from "react";
 import { useState } from "react";
 import { db } from "../firebaseConfig";
 import { collection, getDocs, addDoc } from "firebase/firestore";
+import { motion, useAnimation } from "framer-motion";
 const Contact = () => {
   const [newName, setNewName] = useState("");
   const [email, setEmail] = useState("");
@@ -30,37 +31,82 @@ Illustration from undraw.co by the amazing Katerina Limpitsouni
         <div className="max-w-screen-3xl z-50 px-8 grid gap-8 grid-cols-1 md:grid-cols-2 md:px-12 lg:px-16 xl:px-32 py-16 mx-auto bg-black  bg-opacity-40 text-gray-900 rounded-lg shadow-lg">
           <div className="flex flex-col justify-between">
             <div>
-              <h2
-                id="Contact"
-                href="#Contact"
-                className="text-4xl text-violet-900 lg:text-5xl font-bold leading-tight"
+              {" "}
+              <motion.div
+                initial="hidden"
+                whileInView="visible"
+                viewport={{ once: true, amount: 0.5 }}
+                transition={{ delay: 0.5, duration: 1.5, type: "spring" }}
+                variants={{
+                  hidden: { opacity: 0, x: -150 },
+                  visible: { opacity: 1, x: 0 },
+                }}
               >
-                Get In Touch!
-              </h2>
-              <div className="text-white mt-10 grid grid-cols-2  ">
-                <img src="https://img.icons8.com/nolan/40/ringer-volume.png" />
-                <div className="-ml-[6rem] lg:-ml-[12rem] sm:-ml-[15rem] md:-ml-[6rem] -mt-1">
-                  Call Me :
-                  <br />
-                  7353098307
+                <h2
+                  id="Contact"
+                  href="#Contact"
+                  className="text-4xl bg-gradient-to-l bg-clip-text text-transparent  from-pink-900 to-violet-600 lg:text-5xl font-bold leading-tight"
+                >
+                  Get In Touch!
+                </h2>
+              </motion.div>
+              <motion.div
+                initial="hidden"
+                whileInView="visible"
+                viewport={{ once: true, amount: 0.5 }}
+                transition={{ delay: 0.5, duration: 0.5, type: "spring" }}
+                variants={{
+                  hidden: { opacity: 0, y: 150 },
+                  visible: { opacity: 1, y: 0 },
+                }}
+              >
+                <div className="text-white mt-10 grid grid-cols-2  ">
+                  <img src="https://img.icons8.com/nolan/40/ringer-volume.png" />
+                  <div className="-ml-[6rem] lg:-ml-[12rem] sm:-ml-[15rem] md:-ml-[6rem] -mt-1">
+                    Call Me :
+                    <br />
+                    7353098307
+                  </div>
                 </div>
-              </div>
-              <div className="text-white mt-8 grid grid-cols-2">
-                <img src="https://img.icons8.com/nolan/40/filled-message.png" />
-                <div  className="-ml-[6rem] lg:-ml-[12rem] sm:-ml-[15rem] md:-ml-[6rem] -mt-1" >
-                  Email :
-                  <br />
-                  279srishti@gmail.com
+              </motion.div>
+              <motion.div
+                initial="hidden"
+                whileInView="visible"
+                viewport={{ once: true, amount: 0.5 }}
+                transition={{ delay: 0.6, duration: 1.2, type: "spring" }}
+                variants={{
+                  hidden: { opacity: 0, y: 150 },
+                  visible: { opacity: 1, y: 0 },
+                }}
+              >
+                <div className="text-white mt-8 grid grid-cols-2">
+                  <img src="https://img.icons8.com/nolan/40/filled-message.png" />
+                  <div className="-ml-[6rem] lg:-ml-[12rem] sm:-ml-[15rem] md:-ml-[6rem] -mt-1">
+                    Email :
+                    <br />
+                    279srishti@gmail.com
+                  </div>{" "}
+                </div>{" "}
+              </motion.div>
+              <motion.div
+                initial="hidden"
+                whileInView="visible"
+                viewport={{ once: true, amount: 0.5 }}
+                transition={{ delay: 0.7, duration: 1.5, type: "spring" }}
+                variants={{
+                  hidden: { opacity: 0, y: 150 },
+                  visible: { opacity: 1, y: 0 },
+                }}
+              >
+                <div className="text-white mt-8 grid grid-cols-2">
+                  <img src="https://img.icons8.com/nolan/45/region-code.png" />
+                  <div className="-ml-[6rem] lg:-ml-[12rem] sm:-ml-[15rem] md:-ml-[6rem] -mt-1">
+                    Location :
+                    <br />
+                    India : Karnataka, Mangalore
+                  </div>
                 </div>
-              </div>{" "}
-              <div className="text-white mt-8 grid grid-cols-2">
-                <img src="https://img.icons8.com/nolan/45/region-code.png" />
-                <div  className="-ml-[6rem] lg:-ml-[12rem] sm:-ml-[15rem] md:-ml-[6rem] -mt-1">
-                  Location :
-                  <br />
-                  India : Karnataka, Mangalore
-                </div>
-              </div>
+              </motion.div>
             </div>
             <div className="mt-8 text-center">
               <svg

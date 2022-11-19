@@ -3,7 +3,7 @@ import { motion, useAnimation } from "framer-motion";
 import LineGradient from "../Components/LineGradient";
 const Service = () => {
   return (
-    <div className=" relative  ">
+    <div className=" relative mt-12  ">
       <div className=" ">
       <LineGradient className="w-full  " /></div>
       <div className="  mx-5  2xl:mx-40">
@@ -105,7 +105,7 @@ const Service = () => {
             viewport={{once:true, amount:0.5}}
             transition={{delay:0.5,duration:1.5,type:"spring"}}
             variants={{
-              hidden:{opacity:0,x:300},
+              hidden:{opacity:0,x:150},
               visible:{opacity:1,x:0}}}
             >
               {/* 1st Service */}
