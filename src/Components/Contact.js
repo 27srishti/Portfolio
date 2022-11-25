@@ -50,25 +50,8 @@ Illustration from undraw.co by the amazing Katerina Limpitsouni
                   Get In Touch!
                 </h2>
               </motion.div>
-              <motion.div
-                initial="hidden"
-                whileInView="visible"
-                viewport={{ once: true, amount: 0.5 }}
-                transition={{ delay: 0.5, duration: 0.5, type: "spring" }}
-                variants={{
-                  hidden: { opacity: 0, y: 150 },
-                  visible: { opacity: 1, y: 0 },
-                }}
-              >
-                <div className="text-white mt-10 grid grid-cols-2  ">
-                  <img src="https://img.icons8.com/nolan/40/ringer-volume.png" />
-                  <div className="-ml-[6rem] lg:-ml-[12rem] sm:-ml-[15rem] md:-ml-[6rem] -mt-1">
-                    Call Me :
-                    <br />
-                    7353098307
-                  </div>
-                </div>
-              </motion.div>
+             
+                
               <motion.div
                 initial="hidden"
                 whileInView="visible"
